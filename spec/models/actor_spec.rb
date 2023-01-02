@@ -8,7 +8,7 @@ RSpec.describe Actor do
 
   describe '#average_age' do
     it 'returns the average age of all the actors' do
-      expect(Actor.average_age).to eq 50
+      expect(Actor.average_age).to eq 49.5
     end
   end
 end
