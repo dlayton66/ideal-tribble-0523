@@ -20,3 +20,4 @@ Studio.destroy_all
 @actor_1 = @movie_1.actors.create!(name: "Joaquin Phoenix", age: 48)
 @actor_2 = @movie_1.actors.create!(name: "Philip Seymour Hoffman", age: 46)
 @actor_3 = @movie_2.actors.create!(name: "Adam Sandler", age: 56)
+@actor_4 = Actor.create!(name: "Amy Adams", age: 48)
