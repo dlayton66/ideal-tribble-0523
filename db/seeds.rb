@@ -16,3 +16,7 @@ Studio.destroy_all
 
 @movie_1 = @studio_1.movies.create!(title: "The Master", creation_year: "2012", genre: "Drama")
 @movie_2 = @studio_2.movies.create!(title: "Punch-Drunk Love", creation_year: "2002", genre: "Comedy")
+
+@actor_1 = @movie_1.actors.create!(name: "Joaquin Phoenix", age: 48)
+@actor_2 = @movie_1.actors.create!(name: "Philip Seymour Hoffman", age: 46)
+@actor_3 = @movie_2.actors.create!(name: "Adam Sandler", age: 56)

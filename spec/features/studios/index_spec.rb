@@ -1,9 +1,3 @@
-# As a user,
-# When I visit the studio index page,
-# Then I see all of the studios including name and location,
-# And under each studio I see all of the studio's movies
-# including the movie's title, creation year, and genre
-
 require 'rails_helper'
 
 RSpec.describe "Studios Index Page" do
